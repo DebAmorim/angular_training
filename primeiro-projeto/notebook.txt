@@ -1,0 +1,15 @@
+Property Binding e Interpolation
+
+Trata-se de formas de associar o conteúdo do componente para o template e vice-versa.
+
+{{Interpolation}} : pegar o valor de atributo ou método e ter a saída dessa informação no template.
+[Property Binding] : temos a saída de um atributo do componente para o template.
+(evento) : escuta uma ação, como clique do botão, para então executar uma lógica.
+[(two way databind)] : mantém o template e o componente atualizados ao mesmo tempo. útil quando se usa formulários.
+
+Property Binding
+
+-Valor do componente para o template
+-Usa-se colchetes []
+-Formato padrão é através de bind-nomePropriedade <img bind-src="urlImagem"/>
+-Quando não existe uma propriedade no elemento, usa-se attr: [attr.colspan].
